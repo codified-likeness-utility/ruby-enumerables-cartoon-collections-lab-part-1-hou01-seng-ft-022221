@@ -15,4 +15,3 @@ def list_dwarves(array)
   end
   print array
 end
-end
