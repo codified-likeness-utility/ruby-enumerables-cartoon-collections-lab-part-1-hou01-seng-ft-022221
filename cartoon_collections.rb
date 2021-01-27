@@ -9,9 +9,9 @@ def list_dwarves(array)
   #
   # Print a numbered list of each element
   
-  array.each_with_index { |index, name|
+  (array).each_with_index { |index, name|
     array[index] = name
   }
-  p array
+  print array
   end
 end
