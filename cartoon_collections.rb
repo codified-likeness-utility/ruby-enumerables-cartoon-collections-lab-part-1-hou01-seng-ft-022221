@@ -12,6 +12,6 @@ def list_dwarves(array)
   array.each_with_index { |index, name|
     array[index] = name
   }
-  array
+  p array
   end
 end
